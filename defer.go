@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func greet() {
 	fmt.Println("Welcome")
@@ -36,5 +38,4 @@ func main() {
 
 	fmt.Println()
 	printReverse("Shenali")
-
 }
